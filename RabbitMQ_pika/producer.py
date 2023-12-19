@@ -1,3 +1,7 @@
+# RabbitMQ is probably one of the most popular open sourcemessage brokers, which lets you route messages from producers to consumers
+#  in several ways. You can conveniently start a new RabbitMQ broker without installing it on your computer by running a temporary
+# Docker container:
+
 import pika 
 
 QUEUE_NAME_1 = "mailbox"
